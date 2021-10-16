@@ -8,49 +8,67 @@
     <meta name="author" content="Estudantes SENAI - SBO">
     <meta name="viewport" content="Width=device-with, initial-scale=1.0">
     <link rel="stylesheet" href="./Carrinho.css">
+    <link rel="stylesheet" href="./carrinho.html">
 </head>
 
 <body>
 
-    <nav id="menu">
-        <img src="./img/logo.jpg" width="50px" height="40px" alt="logomarca"></img>
-        <a href="./index.html">inicio</a>
-        <a href="./Menu.html">Menu</a>
-        <a href="./Jogos.html">Jogos</a>
-        <a href="./Consoles.html">consoles</a>
+    <fieldset class="primeiro">
+
+        <img class="logo" src="./img/logo.jpg" alt="logomarca"></img>
+        <a href="./index.html" class="inicio">inicio</a>
+        <a href="./Menu.html" class="menu">Menu</a>
+        <a href="./Jogos.html" class="jogos">Jogos</a>
+        <a href="./Consoles.html" class="consoles">consoles</a>
         <input type="text" placeholder="pesquisa..." />
-        <a href="./login.html"> <img src="./img/Users-User-Male-3-icon.png" width="30px" height="30px" alt="login"></a>
-        <a href="./carrinho.html"><img src="./img/Vector.svg" width="30px" height="30px" alt="carrinho"></a>
-    </nav>
+        <a href="./login.html"> <img class="login" src="./img/Users-User-Male-3-icon.png" width="30px" height="30px"
+                alt="login"></a>
+        <a href="./carrinho.html"><img src="./img/Vector.svg" width="30px" class="carrinho" height="30px"
+                alt="carrinho"></a>
 
-    <h1>Identificação<img src="./img/icon carrinho.svg" alt="icone carrinho" width="30" height="30"></h1>
-    <br>
-    <input type="text" placeholder=" Nome:" autocomplete="">
-    <br>
-    <input type="number" placeholder=" CPF:" autocomplete="name">
-    <br>
-    <input type="number" placeholder="CEP" autocomplete="name">
-    <br>
-    <input type="text" placeholder="endereço:">
-    <br>
-    <input type="number" placeholder="nº">
-    <br>
-    <input type="text" placeholder="Cidade">
-    <br>
-    <input type="tel" placeholder="Telefone">
-    <br>
-    <input type="email" placeholder="Email">
+    </fieldset>
 
-    <br>
-    <br>
+    <div class="principal">
 
-    <img src="./img/mario.jpg" alt="imagem jogo mario" width="209" height="150">
-    <button type="button">comprar $50</button>
-    <button type="button"> Debito</button>
-    <button type="button"> Credito</button>
-    <button type="button"> Pix</button>
+        <div>
+            <h1 class="pri">Identificação<img src="./img/icon carrinho.svg" alt="icone carrinho" width="30" height="30">
+            </h1>
+            <br>
+            <input type="text" placeholder=" Nome:" autocomplete="">
+            <br>
+            <input type="number" placeholder=" CPF:" autocomplete="name">
+            <br>
+            <input type="number" placeholder="CEP" autocomplete="name">
+            <br>
+            <input type="text" placeholder="endereço:">
+            <br>
+            <input type="number" placeholder="nº">
+            <br>
+            <input type="text" placeholder="Cidade">
+            <br>
+            <input type="tel" placeholder="Telefone">
+            <br>
+            <input type="email" placeholder="Email">
+        </div>
 
-    <footer>
+
+
+        <div class="registration-box">
+            <img src="./img/usar esse no carrinho.png" width="209" height="150">
+            <br>
+            <button class="click" type="button">comprar $50</button>
+            <br>
+            <button class="click" type="button"> Debito</button>
+
+            <button class="click" type="button"> Credito</button>
+
+            <button class="click" type="button"> Pix</button>
+
+        </div>
+
+    </div>
+
+    <footer class="rodape">
         <p>Games Ltda</p>
         <p><a href="mailto:email@example.com">Games@example.com</a></p>
     </footer>

@@ -1,0 +1,100 @@
+*{
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+    }
+    
+    .logo {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 50px 50px 0;
+    }
+    
+    .inicio{
+    margin: 0px 30px 10px 0;
+    font-size: 30px;
+    color: black;
+    border: none;
+    }
+    
+    .menu{
+    margin: 0px 30px 10px 0;
+    font-size: 30px;
+    color: black;
+    }
+    
+    .jogos{
+    margin: 0px 30px 10px 0;
+    font-size: 30px;
+    color: black;
+    }
+    
+    .consoles{
+    margin: 0px 30px 10px 0;
+    font-size: 30px;
+    color: black;
+    }
+    
+    input{
+    margin: 0px 10px 10px 250px;
+    width: 270px;
+    height: 30px;
+    border-radius: 7px;
+    }
+    
+    .login{
+    margin: 0px 10px 10px 50px;
+    width: 50px;
+    height: 40px;
+    }
+    
+    .carrinho{
+    margin: 0px 10px 10px 0px;
+    width: 50px;
+    height: 40px;
+    }
+    
+    .primeiro{
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,77,255,1) 50%, rgba(0,219,255,1) 100%);
+    }
+    
+    .confira{
+    text-align: center;
+    color: red;
+    }
+    
+    .ps4{
+    margin: 0 0 15px 20px;
+    display: inline-block;
+    }
+    
+    .pri{
+    margin: auto 30px;
+    border-radius: 0px;
+    }
+    
+    .xbox{
+    margin: 15px 0 15px 20px;
+    display: inline-block;
+    }
+    
+    .seg{
+    margin: 0 20px 15px 20px;
+    display: inline-block;
+    }
+    
+    .nin{
+    margin: 15px 0 15px 20px;
+    display: inline-block;
+    }
+    
+    .ter{
+    margin: 0 20px 15px 20px;
+    display: inline-block;
+    }
+    
+    p{
+    text-align: center;
+    }

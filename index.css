@@ -1,135 +1,136 @@
 *{
-            font-family: 'PT Serif', serif;
-           border: none;
-           text-decoration: none;
-}
-
-.logo {
-    width: 50px; 
+    font-family: 'PT Serif', serif;
+    border: none;
+    text-decoration: none;
+    }
+    
+    .logo {
+    width: 50px;
     height: 40px;
     border-radius: 20px;
     margin: 0 50px 50px 0;
-}
-
-.inicio{
- margin: 0px 30px 10px 0;
- font-size: 30px;
- color: black;
-}
-
-.menu{
+    }
+    
+    .inicio{
     margin: 0px 30px 10px 0;
     font-size: 30px;
- color: black;
-}
-
-.jogos{
+    color: black;
+    }
+    
+    .menu{
     margin: 0px 30px 10px 0;
     font-size: 30px;
- color: black;
-}
-
-.consoles{
+    color: black;
+    }
+    
+    .jogos{
     margin: 0px 30px 10px 0;
     font-size: 30px;
- color: black;
-}
-
-input{
+    color: black;
+    }
+    
+    .consoles{
+    margin: 0px 30px 10px 0;
+    font-size: 30px;
+    color: black;
+    }
+    
+    input{
     margin: 0px 10px 10px 250px;
     width: 270px;
     height: 30px;
     border-radius: 7px;
-}
-
-.login{
+    }
+    
+    .login{
     margin: 0px 10px 10px 50px;
     width: 50px;
     height: 40px;
-}
-
-.carrinho{
+    }
+    
+    .carrinho{
     margin: 0px 10px 10px 0px;
     width: 50px;
     height: 40px;
-}
-
-.tela{
-    width: 1340px; 
+    }
+    
+    .tela{
+    width: 1340px;
     height: 500px;
     border-radius: 10px;
-  
-}
-
-.tela2{
-    background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,50,164,1) 50%, rgba(219,236,238,1) 100%);
-}
-
-.primeiro{
+    
+    }
+    
+    .primeiro{
     border-radius: 10px;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,77,255,1) 50%, rgba(0,219,255,1) 100%);
-}
-
-.segunda{
-        border-radius: 10px;
-        background: rgb(0,0,0);
-        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,77,255,1) 50%, rgba(0,219,255,1) 100%);
-   }
-
-.terceiro{
+    }
+    
+    .segunda{
+    border-radius: 10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,77,255,1) 50%, rgba(0,219,255,1) 100%);
+    }
+    
+    .tela2{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,50,164,1) 50%, rgba(219,236,238,1) 100%);
+    }
+    
+    .terceiro{
     color: red;
     font-size: 20px;
-}
-
-.teste{
+    }
+    
+    .teste{
     margin: 10px 100px;
     background-color: black;
     color: blue;
     border-radius: 0px;
     width: 50px;
     height: 50px;
-}
-
-#container{
+    }
+    
+    #container{
     margin: 10px 50px 30px 10px;
     display: inline-block;
-}
+    }
     
-.container2{
-display: inline-block;
-
-}
-
-.zap{
+    .container2{
+    display: inline-block;
+    
+    }
+    
+    .zap{
     margin: 10px 0 5px 5px;
-}
-
-.face{
+    }
+    
+    .face{
     margin: 10px 0 10px 10px;
-}
-
-.insta{
+    }
+    
+    .insta{
     margin: 10px 0 10px 10px;
-}
-
-.you{
+    }
+    
+    .you{
     margin: 10px 0 10px 10px;
-}
-
-.msg{
+    }
+    
+    .msg{
     margin: 10px 0 10px 1000px;
-}
-
-.tel{
+    }
+    
+    .tel{
     margin: 10px 0 10px 10px;
-}
-
-.loc{
+    }
+    
+    .loc{
     margin: 10px 0 10px 10px;
-}
-
-p{
+    
+    }
+    
+    p{
     text-align: center;
-}
+    }

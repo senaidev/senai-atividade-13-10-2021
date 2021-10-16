@@ -7,45 +7,51 @@
     <meta name="keywords" content="XBOX, PS, PlayStation, PC, Atari">
     <meta name="author" content="Estudantes SENAI - SBO">
     <meta name="viewport" content="Width=device-with, initial-scale=1.0">
+    <link rel="stylesheet" href="./Login.css">
 </head>
 
 <body>
 
-    <nav id="menu">
-        <img src="./img/logo.jpg" width="50px" height="40px" alt="logomarca"></img>
-        <a href="./index.html">inicio</a>
-        <a href="./Menu.html">Menu</a>
-        <a href="./Jogos.html">Jogos</a>
-        <a href="./Consoles.html">consoles</a>
+    <fieldset class="primeiro">
+
+        <img class="logo" src="./img/logo.jpg" alt="logomarca"></img>
+        <a href="./index.html" class="inicio">inicio</a>
+        <a href="./Menu.html" class="menu">Menu</a>
+        <a href="./Jogos.html" class="jogos">Jogos</a>
+        <a href="./Consoles.html" class="consoles">consoles</a>
         <input type="text" placeholder="pesquisa..." />
-        <a href="./login.html"> <img src="./img/Users-User-Male-3-icon.png" width="30px" height="30px" alt="login"></a>
-        <a href="./carrinho.html"><img src="./img/Vector.svg" width="30px" height="30px" alt="carrinho"></a>
-    </nav>
+        <a href="./login.html"> <img class="login" src="./img/Users-User-Male-3-icon.png" width="30px" height="30px"
+                alt="login"></a>
+        <a href="./carrinho.html"><img src="./img/Vector.svg" width="30px" class="carrinho" height="30px"
+                alt="carrinho"></a>
 
-    <br>
-
-    <fieldset>
-
-        <legend><b>Ja Sou Cadastrado</b></legend>
-        <input type="email" name="email" placeholder="email@email.com">
-        <br>
-        <input type="password" name="password" placeholder="********">
-        <button>Prosseguir</button>
     </fieldset>
 
     <br>
 
     <fieldset>
 
-        <legend><b>Ainda Não Tenho Cadastrado</b></legend>
-        <input type="email" name="email" placeholder="email@email.com">
-        <button>Cadastrar</button>
+        <legend class="pri"><b>Ja Sou Cadastrado</b></legend>
+        <input class="seg" type="email" name="email" placeholder="email@email.com">
+        <br>
+        <input class="ter" type="password" name="password" placeholder="********">
+        <br>
+        <button class="qua">Prosseguir</button>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+
+        <legend class="qui"><b>Ainda Não Tenho Cadastrado</b></legend>
+        <input class="sex" type="email" name="email" placeholder="email@email.com">
+        <br>
+        <button class="set">Cadastrar</button>
         <br>
 
 
     </fieldset>
-
-    <footer>
+    <footer class="rodape">
         <p>Games Ltda</p>
         <p><a href="mailto:email@example.com">Games@example.com</a></p>
     </footer>
